@@ -3,7 +3,11 @@
 }
 
 .header ul li {
-    text-decoration: none;
     display: inline;
     margin: 5%;
+}
+
+.header li a {
+    text-decoration: none;
+    padding: 16px;
 }
