@@ -1,0 +1,9 @@
+.header {
+    background-color: rgb(251, 176, 80);
+}
+
+.header ul li {
+    text-decoration: none;
+    display: inline;
+    margin: 5%;
+}
