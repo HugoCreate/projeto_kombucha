@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
     background-color: rgb(251, 176, 80);
     width: 100%;
@@ -31,14 +35,12 @@
 }
 
 .header-list li a {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #89066b;
     text-decoration: none;
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -46,10 +48,44 @@
 }
 
 .footer ul li{
-    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 5%;
 }
 
+.section {
+    padding: 100px 20px;
+}
+
+.section h2 {
+    color: #89066b;
+}
+
+.saibamais {
+    background-color: #89066b;
+}
+
+.saibamais h2 {
+    color: white;
+}
+
+.saibamais h3 {
+    color: white;
+}
+
+.ondecomprar {
+    background-color: white;
+}
+
+.sobrenos {
+    background-color: #89066b;
+}
+
+.sobrenos h2{
+    color: white;
+}
+
+.blog {
+    background-color: white;
+}
