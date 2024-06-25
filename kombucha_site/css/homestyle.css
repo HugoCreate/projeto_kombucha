@@ -18,11 +18,18 @@ body, html {
     z-index: 1000;
 }
 
+
+.header img {
+    max-width: 190px;
+    max-height: 55;
+}
+
 .header-list {
     list-style-type: none;
     display: flex;
     align-items: center;
     width: 100%;
+    padding:  0px 0px 0px 0px;
 }
 
 .header-list li {
@@ -35,13 +42,13 @@ body, html {
 
 .header-list li a {
     font-size: 24px;
-    color: #89066b;
+    color: #87234c;
     text-decoration: none;
 }
 
 .footer {
     background-color: rgb(251, 176, 80);
-    color: #89066b;
+    color: #87234c;
     padding: 30px;
 }
 
@@ -57,7 +64,6 @@ body, html {
     font-size: 16px;
     flex: 1;
     text-align: left;
-    padding: 0 10px;
 }
 
 .footer ul li strong {
@@ -68,7 +74,7 @@ body, html {
 }
 
 .footer ul li a {
-    color: #89066b;
+    color: #87234c;
     text-decoration: none;
 }
 
@@ -77,28 +83,73 @@ body, html {
 }
 
 .section {
-    padding: 130px 20px;
+    padding: 200px 20px;
 }
 
 .section h2 {
-    color: #89066b;
+    color: #87234c;
 }
 
 .saibamais {
-    background-color: #89066b;
+    background-color: #87234c;
+    position: relative;
+    border-bottom: 16px solid rgb(251, 176, 80);
+    border-top: 16px solid rgb(251, 176, 80);
 }
+
 
 .saibamais h2,
 .saibamais h3 {
     color: white;
 }
 
+.icone-saibamais {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    width: 300px; 
+    height: auto; 
+}
+
 .ondecomprar {
     background-color: white;
+    position: relative;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.icone-ondecomprar {
+    padding-right: 200px;
+    width: 380px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.ondecomprar h2 {
+    color: #000004;
+    margin-top: 0;
+}
+
+.ondecomprar p {
+    color: #000004;
+    font-size: 16px;
+    margin-top: 8px;
 }
 
 .sobrenos {
-    background-color: #89066b;
+    background-color: #87234c;
+    border-top: 16px solid rgb(251, 176, 80);
+    border-bottom: 16px solid rgb(251, 176, 80);
+}
+
+.icone-sobrenos {
+    position: relative;
+    bottom: 15px; 
+    left: 70%; 
+    width: 300px; 
+    height: auto; 
 }
 
 .sobrenos h2 {
@@ -108,6 +159,11 @@ body, html {
 .blog {
     background-color: white;
 }
+
+.blog h2 {
+    color: #000004;
+}
+
 
 .modal {
     display: none;
@@ -160,7 +216,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: #89066b;;
+    background-color: #87234c;
     color: white;
     border: none;
     border-radius: 5px;
@@ -225,7 +281,7 @@ input[type="radio"] {
 .nav-manual .manual-btn {
     width: 10px;
     height: 10px;
-    border: 1px solid #89066b;
+    border: 1px solid #87234c;
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.2s;
@@ -233,7 +289,7 @@ input[type="radio"] {
 }
 
 .nav-manual .manual-btn:hover {
-    background-color: #89066b;
+    background-color: #87234c;
 }
 
 #radio1:checked ~ .slider-content {
@@ -251,7 +307,7 @@ input[type="radio"] {
 #radio1:checked ~ .nav-manual .manual-btn.manual-btn1,
 #radio2:checked ~ .nav-manual .manual-btn.manual-btn2,
 #radio3:checked ~ .nav-manual .manual-btn.manual-btn3 {
-    background-color: #89066b;
+    background-color: #87234c;
 }
 
 @media screen and (max-width: 900px) {
